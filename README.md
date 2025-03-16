@@ -1,87 +1,73 @@
-# 🚴 Cyclistic Business Intelligence Dashboard  
+# **Cyclistic Business Intelligence Dashboard**  
 
 ## **Overview**  
-This project is part of my **Google Business Intelligence Certification**, where I built a **dynamic Tableau dashboard** analyzing **Cyclistic bike-sharing data**. The goal was to help decision-makers understand **customer demand trends, station usage, and seasonal patterns**.  
+This project was developed as part of the **[Google Business Intelligence Certification](https://www.coursera.org/professional-certificates/google-business-intelligence)** to analyze **Cyclistic bike-sharing data**. The goal was to provide **insights on customer demand, station usage, and seasonal trends** through a **dynamic Tableau dashboard** to support data-driven decision-making.
 
-📊 **Key Features:**  
-- **Interactive Tableau Dashboard** – Users can **click on the map** to dynamically filter other visual elements, such as tables and trend charts.  There are also filters on the page which self define the actions on the dashboard.
-- **Data Extraction using Google BigQuery** – Combined **three public datasets** to generate insights.  
-- **Comprehensive BI Documentation** – Developed **Project Requirements, Stakeholder Requirements, and Strategy Documents** to align with business goals.  
-
-
-## 🔍 **Project Steps**  
-
-### **Step 1: Business Requirements & Documentation**  
-Before diving into data, I created key **BI documents** to define the project scope and align with stakeholders.  
-📂 Requirements Document - https://github.com/amritachinnam/Cyclistic-BI-Dashboard/tree/main/Requirements%20Document 
+## **Key Features**  
+- **Interactive Tableau Dashboard** – Users can **click on the map** to dynamically filter **tables and trend charts**, with additional filter options.  
+- **Data Extraction via Google BigQuery** – Merged **three public datasets** for deeper analysis.  
+- **Comprehensive BI Documentation** – Created **Project Requirements, Stakeholder Requirements, and Strategy Documents** to align with business needs.  
 
 
-### **Step 2: Data Extraction & Preparation**  
-I used **Google BigQuery** to retrieve data from **three public datasets** and merged them into an **Excel file** for Tableau visualization.  
+## **Project Steps**  
+
+### **1. Business Requirements & Documentation**  
+📄 **[Requirements Document](https://github.com/amritachinnam/Cyclistic-BI-Dashboard/tree/main/Requirements%20Document)** – Defined the project scope, stakeholder needs, and success criteria.  
+
+### **2. Data Extraction & Preparation**  
+Utilized **Google BigQuery** to extract and process datasets, merging them into an **Excel file** for Tableau visualization.  
+
+**Public Datasets Used:**  
+- **new_york_citibike** – Trip details dataset.  
+- **geo_us_boundaries** – Mapping station locations.  
+- **GSOD (Global Surface Summary of the Day)** – Integrated **weather conditions** to analyze impact on bike demand.  
+
+### **3. Tableau Dashboard Development**  
+📊 **[Live Tableau Dashboard](https://public.tableau.com/app/profile/amrita.chinnam/viz/CyclisticGoogleBusinessIntelligenceDashboard/SummerTrends)**  
 
 
- **Public Datasets Used:**  
-- 🚲 **new_york_citibike** – BigQuery public dataset for ride details  
-- 📍 **geo_us_boundaries** – Used for mapping station locations  
-- 🌦️ **GSOD (Global Surface Summary of the Day)** – Integrated **weather conditions** to analyze their impact on bike demand  
+## **Dashboard Features**  
+
+### **Navigation & Views**  
+- **Summer Trends** – Displays **seasonal ridership patterns**.  
+- **Seasonality** – Analyzes **monthly variations** (*No interactive actions*).  
+- **Top Trips** – Shows **popular starting and ending trip locations**.  
+
+### **Interactive Features**  
+- **Filters** – Users can filter data by **User Type, Start & End Locations, Month, and Metric Selector**.  
+- **Click Actions** – Clicking on the main **map updates Trends of the Month and Trends of the Station**.  
+- **Hover Actions** – Hovering over **Trend by Month updates Trends of Station, and vice versa**.  
+
+### **Static Views**  
+- **Seasonality & Top Trips** – Analytical insights only (*No interactivity*).  
 
 
-### **Step 3: Tableau Dashboard Development**  
-**Final output:** https://public.tableau.com/app/profile/amrita.chinnam/viz/CyclisticGoogleBusinessIntelligenceDashboard/SummerTrends
-
-📊 **Dashboard Features:**  
-
-
-1. **Navigation & Views**:  
-   - Clicking on **Summer Trends** displays summer trends analysis.  
-   - Clicking on **Seasonality** presents seasonal trends but **does not** have interactive action features.  
-   - Clicking on **Top Trips** reveals trips categorized by **starting and ending locations**.  
-
-2. **Interactive Clickable Filters**:  
-   - Users can filter data dynamically based on:  
-     ✅ **User Type** (Subscriber vs. Casual)  
-     ✅ **Starting & Ending Locations**  
-     ✅ **Month Selection**  
-     ✅ **Metric Selector**  
-
-3. **Advanced Interactive Features**:  
-   - Clicking on the **main map** updates the **trends of the month** and **trends of the station**.  
-   - Hovering over **Trend by Month** dynamically updates **Trends of Station**.  
-   - Hovering over **Trends of Station** also updates **Trend by Month** for better insights.  
-
-4. **Non-Interactive Views**:  
-   - **Seasonality** and **Top Trips** views are purely analytical with **no action features**.  
-
-
-📝 **Dashboard Insights:**  
-### **Updated README.md - Dashboard Insights Section**  
-
-## 📊 **Dashboard Insights**  
+## **Dashboard Insights**  
 
 - **How are customers using bikes?**  
-  - **Subscribers take frequent, shorter trips (39 min avg) for commuting, while casual riders take longer rides (42 min avg), mainly for leisure.**  
+  - **Subscribers** take frequent, shorter trips (**39 min avg**) for **commuting**, while **casual riders** take longer rides (**42 min avg**) mainly for **leisure**.  
 
 - **What is the customer demand at different station locations?**  
-  - **Chelsea & Clinton, Lower East Side, and Upper East Side see the highest and most consistent ridership across seasons, indicating strong year-round demand.**  
+  - **Chelsea & Clinton, Lower East Side, and Upper East Side** have **high and consistent ridership**, making them **ideal locations for station expansion**.  
 
-- **How can we get customer usage insights to inform new station growth?**  
-  - **Expansion should focus on high-traffic locations like Chelsea & Clinton and Upper East Side, where demand is high but supply is limited.**  
+- **How can we use trip data to improve station growth?**  
+  - Expansion should focus on **high-traffic areas where station supply is low**, especially **Chelsea & Clinton and Upper East Side**.  
 
-- **How were bikes used by our customers?**  
-  - **Subscribers use bikes mostly for weekday commutes, while casual users ride on weekends in tourist-heavy areas like parks and shopping districts.**  
+- **What are the usage trends between subscribers and casual riders?**  
+  - **Subscribers ride on weekdays for commutes**, while **casual riders use bikes on weekends in tourist-heavy areas**.  
 
-- **How can we apply insights from the data generated by trip data?**  
-  - **Redistribution strategies, subscription incentives, and weather-based pricing adjustments can optimize bike availability and user engagement.**  
+- **How can insights from trip data optimize bike availability?**  
+  - **Redistribution strategies**, **membership incentives**, and **weather-based pricing adjustments** can **improve bike availability and increase user engagement**.  
 
-- **Which months show the highest trends?**  
-  - **The highest trip counts occur in April, August, and December, with February showing the lowest ridership due to winter conditions.**  
+- **Which months have the highest ridership?**  
+  - **April, August, and December** see **peak trip counts**, while **February has the lowest ridership due to winter conditions**.  
 
 
-## 🏆 **Course Details & Certification**  
-This project was completed as part of the **[Google Business Intelligence Certification](https://www.coursera.org/professional-certificates/google-business-intelligence)**.  
+## **Course Details & Certification**  
+This project was developed as part of the **[Google Business Intelligence Certification](https://www.coursera.org/professional-certificates/google-business-intelligence)**.  
 
 📜 **[Google BI Certification Badge](https://www.credly.com/badges/b28be961-1548-45cf-bd3e-47df0f5fdb33/linked_in_profile)**  
 🔗 **[GitHub Repository](https://github.com/amritachinnam/Cyclistic-BI-Dashboard/tree/main)**  
 
-Connect with me on **[LinkedIn](https://www.linkedin.com/in/amrita-chinnam-866545190/)** to discuss insights, improvements, or collaboration opportunities.  
+💡 **Connect on [LinkedIn](https://www.linkedin.com/in/amrita-chinnam-866545190/)** for insights, feedback, or collaboration opportunities.  
 

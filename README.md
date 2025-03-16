@@ -20,7 +20,7 @@ Before diving into data, I created key **BI documents** to define the project sc
 I used **Google BigQuery** to retrieve data from **three public datasets** and merged them into an **Excel file** for Tableau visualization.  
 
 
-## **Public Datasets Used:**  
+ **Public Datasets Used:**  
 - 🚲 **new_york_citibike** – BigQuery public dataset for ride details  
 - 📍 **geo_us_boundaries** – Used for mapping station locations  
 - 🌦️ **GSOD (Global Surface Summary of the Day)** – Integrated **weather conditions** to analyze their impact on bike demand  

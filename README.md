@@ -47,14 +47,8 @@ This project was completed as part of the **[Google Business Intelligence Certif
 
 📜 **[Google BI Certification Badge](https://www.credly.com/badges/b28be961-1548-45cf-bd3e-47df0f5fdb33/linked_in_profile)**  
 
-💡 **Feedback & suggestions are welcome!** Connect with me on **[LinkedIn](https://www.linkedin.com/in/amrita-chinnam-866545190/)** to discuss insights, improvements, or collaboration opportunities.  
+💡 **Feedback & suggestions are welcome!** 
+
+Connect with me on **[LinkedIn](https://www.linkedin.com/in/amrita-chinnam-866545190/)** to discuss insights, improvements, or collaboration opportunities.  
 
 🔗 **[GitHub Repository](https://github.com/amritachinnam/Cyclistic-BI-Dashboard/tree/main)**  
-
-
-💡 **Feedback & suggestions are welcome!** 
-Connect with me to discuss insights, improvements, or collaboration opportunities.  **[LinkedIn] (https://www.linkedin.com/in/amrita-chinnam-866545190/)**
-
-🔗 **Live Tableau Dashboard:** https://public.tableau.com/app/profile/amrita.chinnam/viz/CyclisticGoogleBusinessIntelligenceDashboard/SummerTrends
-
-💾 **GitHub Repository:** https://github.com/amritachinnam/Cyclistic-BI-Dashboard

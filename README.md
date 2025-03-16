@@ -1,6 +1,6 @@
 # 🚴 Cyclistic Business Intelligence Dashboard  
 
-### **Overview**  
+## **Overview**  
 This project is part of my **Google Business Intelligence Certification**, where I built a **dynamic Tableau dashboard** analyzing **Cyclistic bike-sharing data**. The goal was to help decision-makers understand **customer demand trends, station usage, and seasonal patterns**.  
 
 📊 **Key Features:**  
@@ -43,8 +43,9 @@ I used **Google BigQuery** to retrieve data from **three public datasets** and m
 
 
 ## 📂 **Project Files**  
-📊 [Tableau Dashboard] https://github.com/amritachinnam/Cyclistic-BI-Dashboard/tree/main/Tableau%20Dashboard%20PDF
-📄 [Project Documentation] https://github.com/amritachinnam/Cyclistic-BI-Dashboard/tree/main/Requirements%20Document
+📊 Tableau Dashboard - https://github.com/amritachinnam/Cyclistic-BI-Dashboard/tree/main/Tableau%20Dashboard%20PDF
+
+📄 Project Documentation - https://github.com/amritachinnam/Cyclistic-BI-Dashboard/tree/main/Requirements%20Document
 
 
 ## 🏆 **Course Details & Certification**  

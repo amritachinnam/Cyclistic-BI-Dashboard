@@ -51,7 +51,7 @@ I used **Google BigQuery** to retrieve data from **three public datasets** and m
 ## 🏆 **Course Details & Certification**  
 This project was completed as part of the **[Google Business Intelligence Certification](https://www.coursera.org/professional-certificates/google-business-intelligence)**.  
 
-📜 [Google BI Certification Badge] https://www.credly.com/badges/b28be961-1548-45cf-bd3e-47df0f5fdb33/linked_in_profile
+📜Google BI Certification Badge - https://www.credly.com/badges/b28be961-1548-45cf-bd3e-47df0f5fdb33/linked_in_profile
 
 
 💡 **Feedback & suggestions are welcome!** Connect with me to discuss insights, improvements, or collaboration opportunities.  

@@ -55,7 +55,7 @@ This project was completed as part of the **[Google Business Intelligence Certif
 
 
 💡 **Feedback & suggestions are welcome!** Connect with me to discuss insights, improvements, or collaboration opportunities.  
-     LinkedIn - https://www.linkedin.com/in/amrita-chinnam-866545190/
+     LinkedIn - (https://www.linkedin.com/in/amrita-chinnam-866545190/)
 
 🔗 **Live Tableau Dashboard:** https://public.tableau.com/app/profile/amrita.chinnam/viz/CyclisticGoogleBusinessIntelligenceDashboard/SummerTrends
 

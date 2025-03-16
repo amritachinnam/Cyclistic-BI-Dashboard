@@ -42,12 +42,6 @@ I used **Google BigQuery** to retrieve data from **three public datasets** and m
 3. ☔ **Weather impacts bike usage**, with a **sharp decline on rainy and snowy days**  
 
 
-## 📂 **Project Files**  
-📊 Tableau Dashboard - https://github.com/amritachinnam/Cyclistic-BI-Dashboard/tree/main/Tableau%20Dashboard%20PDF
-
-📄 Project Documentation - https://github.com/amritachinnam/Cyclistic-BI-Dashboard/tree/main/Requirements%20Document
-
-
 ## 🏆 **Course Details & Certification**  
 This project was completed as part of the **[Google Business Intelligence Certification](https://www.coursera.org/professional-certificates/google-business-intelligence)**.  
 
